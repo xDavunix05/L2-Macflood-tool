@@ -30,7 +30,7 @@ KEYWORDS: MAC flooder, MAC flooding tool, MAC address table overflow, Ethernet a
 - **Windows:** Not supported
 - **macOS:** Not supported
 - **BSD variants:** Not supported
-- **Note:** Only works on systems with Ethernet interfaces (does not support WiFi)
+- **WiFi cards are not compatible** with this MAC flooder tool; only Ethernet interfaces are supported.
 
 ---
 
@@ -65,7 +65,6 @@ sudo python3 mac_injection.py --help   # Show help message
 
 ## Disclaimer
 
-- **WiFi cards are not compatible** with this MAC flooder tool; only Ethernet interfaces are supported.
 - Use this tool **ONLY** on routers or switches you own or have explicit permission to test.
 - **Unauthorized use is unethical and illegal.**
 - MAC table overflow attacks from this tool may only affect a small number of outdated or improperly configured switches or routers that do not limit MAC addresses.
