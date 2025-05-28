@@ -23,6 +23,26 @@ KEYWORDS: MAC flooder, MAC flooding tool, MAC address table overflow, Ethernet a
 - Stealth mode: adds jitter (random delay) and uses ternary payloads (only 0x00, 0x01, 0x02).
 
 ---
+## Installation
+
+1. Clone the repository:
+
+   ```shell
+   https://github.com/xDavunix05/L2-Macflood-tool.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```shell
+   cd L2-Macflood-tool
+   ```
+
+3. Execute the script using Python 3:
+
+   ```shell
+   python3 mac_injection.py
+   ```
+---
 
 ## OS / Kernel Support
 
